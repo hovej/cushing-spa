@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./index.css">
+	<title>Spa Shop</title>
+</head>
+
+<body>
+	<div id='welcome'>
+		<div id="title">
+			<img id='logo' src="assets/heart-3.png">
+			<h2>Need a break? Let yourself relax</h2>
+		</div>
+		<button id="menu">See what we offer</button>
+		<img id="rocket" src="assets/rocket.png">
+	</div>
+	<div id='store'>
+		<div id="title">
+			<h1>The Pinnacle of Relaxation</h1>
+			<p>Our "Pinnacle of Relaxation" package comes with a peaceful bath in our freshly-cleaned tub as well as
+				a full body massage.
+				There are a variety of add-ons you can find below. Please let our attendent know if you wish to opt-out
+				of either part of the experience.</p>
+		</div>
+		<div class="experience" id="bath">
+			<h1>Bath Add-ons</h1>
+			<div class="options">
+				<div class="optionRow">
+					<h4 class="option" id="bubbles">Bubbles</h4>
+					<h4 class="option" id="bomb">Bath Bomb</h4>
+				</div>
+				<div class="optionRow">
+					<h4 class="option" id="bathCandle">Candle</h4>
+					<h4 class="option" id="bathMusic">Music/Podcast</h4>
+					<h4 class="option" id="book">Book</h4>
+				</div>
+				<div class="optionRow">
+					<h4 class="option" id="mask">Face Mask</h4>
+					<h4 class="option" id="sauna">Sauna</h4>
+				</div>
+			</div>
+		</div>
+		<div class="experience" id="massage">
+			<h1>Massage Add-ons</h1>
+			<div class="options">
+				<div class="optionRow">
+					<h4 class="option" id="hand">Hand Massage</h4>
+					<h4 class="option" id="foot">Foot Massage</h4>
+				</div>
+				<div class="optionRow">
+					<h4 class="option" id="massageCandle">Candle</h4>
+					<h4 class="option" id="massageMusic">Music/Podcast</h4>
+				</div>
+			</div>
+		</div>
+		<button id="goToCheckout">Continue to Checkout</button>
+	</div>
+	<div id='checkout'>
+		<h1>Your Experience</h1>
+		<h3>Bath Addons</h3>
+		<div id="bathAddons"></div>
+		<h3>Massage Addons</h3>
+		<div id="massageAddons"></div>
+		<button id="checkoutBtn">Confirm and Enjoy!</button>
+	</div>
+	<script src="./index.js"></script>
+</body>
+
+</html>

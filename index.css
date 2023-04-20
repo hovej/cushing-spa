@@ -1,0 +1,163 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: pink;
+	margin: 0;
+	padding: 0;
+}
+
+#store {
+	width: 100vw;
+	min-height: 100vh;
+	text-align: center;
+}
+
+#welcome {
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+}
+
+#title {
+	display: block;
+	margin-top: 6%;
+	margin-bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	text-align: center;
+}
+
+#title img {
+	width: 8%;
+	margin-top: 3%;
+	margin-bottom: 1%;
+	height: auto;
+}
+
+#title h2 {
+	font-size: 3em;
+	font-weight: lighter;
+	color: red;
+	margin: 1%;
+}
+
+#menu {
+	display: block;
+	margin: 3% auto;
+	margin-bottom: 10%;
+	height: 5%;
+	background-color: #d97593;
+	font-size: 1.4em;
+	color: white;
+	background-color: transparent;
+	border: none;
+	border-radius: 4px;
+	height: 5%;
+}
+#menu:hover {
+	cursor: pointer;
+	background-color: #d97593;
+}
+
+#rocket {
+	width: 40%;
+	height: auto;
+	border-radius: 50%;
+}
+
+/* Store Page Styles */
+#title {
+	margin: 25px auto;
+	margin-bottom: 75px;
+	width: 75%;
+}
+#title h1 {
+	font-weight: lighter;
+}
+
+.experience {
+	width: 60%;
+	margin: auto;
+	margin-bottom: 50px;
+	padding: 10px;
+	background-color: lightcoral;
+	border: 2px solid rgb(240, 110, 110);
+	border-radius: 10px;
+}
+
+.experience h1 {
+	font-weight: lighter;
+}
+
+.options {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.optionRow {
+	width: 25%;
+}
+
+.option {
+	font-weight: lighter;
+	padding: 3px;
+	border-radius: 3px;
+}
+.option:hover {
+	cursor: pointer;
+	background-color: rgb(240,160,160);
+}
+
+#goToCheckout {
+	width: 20%;
+	margin: 50px auto;
+	height: 35px;
+	background-color: lightcoral;
+	border: none;
+	border-radius: 5px;
+}
+#goToCheckout:hover {
+	cursor: pointer;
+	background-color: rgb(240,160,160);
+	border: 2px solid rgb(240, 110, 110);
+}
+
+
+/* Checkout Page Styles */
+#checkout {
+	position: fixed;
+	z-index: 50;
+	width: 50%;
+	height: 50%;
+	left: 25%;
+	top: 25%;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 10px;
+	text-align: center;
+	overflow-y: scroll;
+}
+
+#checkout h1 {
+	font-weight: lighter;
+}
+
+#checkout button {
+	margin: 5px;
+	background-color: pink;
+	height: 35px;
+	border: 1px solid #d97593;
+	border-radius: 5px;
+}
+#checkout button:hover {
+	background-color: #d97593;
+	cursor: pointer;
+}
